@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/Gilroy-Regular.ttf') format('truetype');
+  font-weight: normal; /* Adjust if using bold or other weights */
+  font-style: normal;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+html,
+body{
+  font-family: 'Gilroy', sans-serif;
+  background: #000;
+  height: 100%;
+  width: 100%;
+  color: aliceblue;
+}
+
+
+.parallax-container {
+  @apply overflow-hidden min-h-screen flex flex-col gap-4 items-center justify-center bg-black text-white;
+}
+
+.parallax {
+  @apply overflow-hidden tracking-tight leading-none whitespace-nowrap flex flex-nowrap;
+}
+
+.scroller {
+  @apply font-bold text-6xl md:text-8xl whitespace-nowrap flex flex-nowrap min-w-max;
+}
+
+.scroller span {
+  @apply block whitespace-nowrap;
+}
+
+.caveat-#me {
+  font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
