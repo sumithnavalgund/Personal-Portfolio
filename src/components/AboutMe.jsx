@@ -43,15 +43,15 @@ const AboutMe = () => {
 
       {/* Main Content */}
       <motion.div
-        className="flex px-4 sm:px-8 md:px-40 items-center justify-center flex-col text-xl sm:text-3xl md:text-7xl font-extrabold gap-4 mt-20 sm:mt-0"
+        className="flex px-8 sm:px-8 md:px-40 items-center justify-center flex-col text-4xl sm:text-3xl md:text-7xl font-extrabold gap-4 mt-20 sm:mt-0"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
       >
         {/* Greetings */}
-        <motion.h1 className="font-[Caveat]" variants={itemVariants}>
-          Hii!
+        <motion.h1 className="font-[Caveat] tracking-widest" variants={itemVariants}>
+          Hii!,  I'm Sumith, 
         </motion.h1>
 
         {/* About Text */}
@@ -59,7 +59,7 @@ const AboutMe = () => {
           variants={itemVariants}
           className="tracking-wider text-center leading-normal md:leading-relaxed font-[Caveat]"
         >
-          I'm Sumith, a full Stack <br /> Web-Dev. & Software-Dev.
+          a full Stack <br /> Web-Dev. & Software-Dev.
         </motion.h1>
 
         <motion.h1
@@ -105,7 +105,7 @@ const AboutMe = () => {
           variants={itemVariants}
         >
           <motion.button
-            className="bg-emerald-600 px-3 sm:px-4 py-2 rounded-lg text-white hover:bg-emerald-500 active:scale-90 text-lg sm:text-xl md:text-2xl hover:cursor-pointer"
+            className="bg-emerald-600 px-3 sm:px-4 py-3 rounded-lg text-white hover:bg-emerald-500 active:scale-90 text-lg sm:text-xl md:text-2xl hover:cursor-pointer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
@@ -114,9 +114,9 @@ const AboutMe = () => {
 
           <motion.button
             onClick={() => {
-              window.open('https://github.com/md-rosh02')
+              window.open('https://github.com/sumithnavalgund')
             }}
-            className="bg-blue-600 px-3 sm:px-4 py-2 rounded-lg text-lg sm:text-xl md:text-2xl flex items-center gap-2 text-white hover:bg-blue-500 active:scale-90 hover:cursor-pointer"
+            className="bg-blue-600 px-3 sm:px-4 py-3 rounded-lg text-lg sm:text-xl md:text-2xl flex items-center gap-2 text-white hover:bg-blue-500 active:scale-90 hover:cursor-pointer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >

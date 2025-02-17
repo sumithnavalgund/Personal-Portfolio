@@ -56,18 +56,17 @@ const ProjSec = () => {
   const projects = [
     { year: '2025', title: 'LaborLoom', description: 'Bridge b/w labor & contractor' },
     { year: '2024', title: 'ExplorerAura', description: 'Travel Web.' },
-    { year: '2023', title: 'Gross-Store', description: 'E-Commerce Web.' },
-    { year: '2022', title: 'Food-Rest', description: 'Food Restaurant Web.' },
+    { year: '2023', title: 'Food-Rest', description: 'Food Restaurant Web.' },
+
   ];
 
   return (
-    <div className="bg-zinc-900 text-white text-2xl sm:text-4xl md:text-6xl font-extrabold p-4 sm:p-8 md:p-20 leading-normal">
+    <div className="bg-zinc-900 text-white text-5xl sm:text-4xl md:text-7xl font-extrabold p-8 sm:p-8 md:p-20 leading-normal">
       <h1>
-        Step into my <span className="text-yellow-500">world</span> of ideas and
-        innovation.
+        watch my more <span className="text-yellow-500">artworld</span>
       </h1>
 
-      <div className="flex flex-col mt-6 sm:mt-8 md:mt-10">
+      <div className="flex flex-col mt-6 sm:mt-8 md:mt-10 mb-15">
         {projects.map((project, index) => (
           <ProjectRow
             key={index}

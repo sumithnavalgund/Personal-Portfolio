@@ -13,8 +13,8 @@ const NavBar = ({ onClick }) => {
     setTimeout(() => {
       setIsDownloading(false);
       const link = document.createElement("a");
-      link.href = "../assets/Mohammed_Roshan_Resume.pdf";
-      link.download = "Mohammed_Roshan_Resume.pdf";
+      link.href = "#";
+      link.download = "";
       link.click();
     }, 1000);
   };

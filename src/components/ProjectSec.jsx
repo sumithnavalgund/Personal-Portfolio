@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 const ProjectSec = () => {
   return (
-    <div className='bg-zinc-800 text-3xl sm:text-5xl md:text-7xl flex flex-col font-extrabold p-4 sm:p-8 md:p-20 leading-normal sm:leading-relaxed gap-8 sm:gap-10 md:gap-15'>
+    <div className='bg-zinc-800 text-5xl sm:text-5xl md:text-7xl flex flex-col font-extrabold p-8 sm:p-8 md:p-20 leading-normal sm:leading-relaxed gap-8 sm:gap-10 md:gap-15'>
       <div>
         <h1>A reflection of <span className='text-amber-300'>creativity.</span></h1>
         <h3 className='text-xl sm:text-2xl md:text-4xl mt-4'>these are a glimpse into my recent work</h3>

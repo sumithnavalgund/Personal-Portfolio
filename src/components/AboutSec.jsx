@@ -4,9 +4,9 @@ import logo from '../assets/about.jpg'
 
 const AboutSec = () => {
   return (
-    <div className='flex flex-col items-center relative top-20 sm:top-28 md:top-36 px-4 sm:px-8 md:px-40 text-clip gap-4 sm:gap-6 md:gap-10'>
+    <div className='flex flex-col items-center relative top-30 sm:top-28 md:top-36 px-8 sm:px-8 md:px-40 text-clip gap-10 sm:gap-6 md:gap-10'>
       <motion.h1
-        className='text-2xl sm:text-3xl md:text-5xl font-extrabold font-[Caveat] mt-5 mb-5 text-center'
+        className='text-4xl sm:text-3xl md:text-5xl font-extrabold font-[Caveat] mt-5 mb-5 text-center'
       >
         Who Am I? Let My Work Speak for Me.
       </motion.h1>
@@ -22,7 +22,7 @@ const AboutSec = () => {
           bottom: 0,
           top: 0,
         }}
-        className='w-full max-w-[1000px] h-auto aspect-video object-cover rounded-lg shadow-xl hover:cursor-grab active:cursor-grabbing' 
+        className='w-full max-w-[1000px] h-[300px] md:h-[500px] aspect-video object-cover rounded-lg shadow-xl hover:cursor-grab active:cursor-grabbing' 
         src={logo} 
         alt="About Me" 
       />
